@@ -6,9 +6,7 @@
      export let y;
 
     export let tabs = [
-        { name: "Work Experience", link: "#work" },
-        { name: "Projects", link: "#projects" },
-        { name: "About Me", link: "#about" },
+        { name: "Education", link: "#projects" },
         // { name: "Contact", link: "" },
     ];
 </script>
@@ -20,8 +18,7 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <i class="fa-solid fa-house"></i>
-        <!-- <b class="font-bold poppins">Aidan</b> <span class="">Donnelly</span> -->
+        <b class="font-bold poppins">Aidan</b> <span class="">Donnelly</span>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
