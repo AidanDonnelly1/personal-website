@@ -6,7 +6,7 @@
      export let y;
 
     export let tabs = [
-        { name: "Your Mom", link: "#projects" },
+        { name: "Education", link: "#projects" },
         // { name: "Contact", link: "" },
     ];
 </script>
