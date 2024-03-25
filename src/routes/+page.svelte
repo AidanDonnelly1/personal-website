@@ -1,3 +1,7 @@
-<h1>
-    lets see what changes
-</h1>
+<script>
+    import Main from "../components/Main.svelte"
+</script>
+
+<Main>
+    
+</Main>
