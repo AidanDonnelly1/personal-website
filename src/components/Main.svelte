@@ -7,20 +7,20 @@
             name: "CU Robotics",
             icon: "fa-solid fa-robot",
             description:
-                "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+                "temp",
         },
         {
             name: "Blueprint Boulder",
             icon: "fa-solid fa-hand-holding-heart",
             description:
-                "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+                "temp",
         },
         {
             name: "Work Experience",
             icon: "fa-solid fa-user",
             description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
-        },
+                "temp",
+        },  
     ];
 
     let benefits = [
@@ -79,35 +79,17 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Smoljames Store is a a merchanising store created with <strong
-                        class="text-violet-400"
-                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-                    > Commerce.js is a product CMS and Stripe is used for all transaction
-                    handling.
+
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    Ultimate Todos is a Full Stack <strong
-                        class="text-violet-400">Next.js</strong
-                    >,
-                    <strong class="text-violet-400">Node.js + Express.js</strong
-                    >
-                    & <strong class="text-violet-400">Firebase</strong> CRUD application
-                    that allows a user to login, manage a tidy and efficacious todo
-                    list, and persist this information across devices.
+                    
                 </p>
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    The Pokédex is a <strong class="text-violet-400"
-                        >SvelteKit & TailwindCSS</strong
-                    >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
-                    consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
-                    to display all Pokémon information. Gotta catch them all!
+                   
                 </p>
             </Step>
         </div>
