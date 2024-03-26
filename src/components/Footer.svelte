@@ -6,9 +6,9 @@
 >
     <div class="flex flex-col gap-4">
         <p>
-            <b class="pr-2 ">Email</b> <a href=" " target="_blank" class="text-violet-400 pr-4">Aidan.Donnelly@colorado.edu</a>
+            <b class="pr-2 ">Email</b> <a href=" " target="_blank" class="text-violet-700 pr-4">Aidan.Donnelly@colorado.edu</a>
             <b class="pr-2 pl-4">GitHub</b>
-            <a href=" " target="_blank" class="text-violet-400 pr-4"
+            <a href=" " target="_blank" class="text-violet-700 pr-4"
                 >AidanDonnelly1<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
@@ -18,7 +18,7 @@
                 ></a
             >
             <b class="pr-2 pl-4">LinkedIn</b>
-            <a href=" " target="_blank" class="text-violet-400"
+            <a href=" " target="_blank" class="text-violet-700"
                 >aidan donnelly<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
