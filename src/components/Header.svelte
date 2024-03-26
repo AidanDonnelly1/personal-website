@@ -25,13 +25,13 @@
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
-            <a
+            <!-- <a
                 href={tab.link}
                 class="duration-200 hover:text-violet-500"
                 target={index === 2 ? "_blank" : ""}
-            >
+            > -->
                 <p>{tab.name}</p>
-            </a>
+            <!-- </a> -->
         {/each}
         <!-- <button
             class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
