@@ -22,7 +22,7 @@
 >
     <h1 class="font-medium">
         <!-- <i class="hover:text-violet-500 fa-solid fa-house"></i> -->
-        <a href={base + "/"} class="hover:text-violet-500 fa-solid fa-house"> </a>
+        <a href={base + "/"} class="hover:text-violet-500 fa-solid fa-house">{base}</a>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab}
