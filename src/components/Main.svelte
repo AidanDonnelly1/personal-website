@@ -21,10 +21,10 @@
     let image_link = [
         base + "/pets", // 0
         base + "/projects", // 1
-        base + "/projects/#cu-robotics", // 2
+        base + "/projects#cu-robotics", // 2
         base + "/work  ", // 3
         base + "/pets", // 4
-        base + "/projects/#blueprint",// 5
+        base + "/projects#blueprint",// 5
         base + "",
         base + "",
         base + "",
