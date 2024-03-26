@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: /${{ github.event.personal-website}}'
+          BASE_PATH: /${{ github.event.personal-website}}
         run: |
           npm run build
 
