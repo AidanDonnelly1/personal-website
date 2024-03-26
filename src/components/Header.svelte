@@ -6,15 +6,16 @@
      */
      export let y;
 
-    export let tabs = [
-        { name: "About Me", link: base + "/about" },
-        { name: "Work Experience", link: base + "/work" },
-        { name: "Projects", link: base + "/projects" },
-        // { name: "Contact", link: "" },
-    ];
+    // export let tabs = [
+    //     { name: "About Me", link: base + "/about" },
+    //     { name: "Work Experience", link: base + "/work" },
+    //     { name: "Projects", link: base + "/projects" },
+    //     // { name: "Contact", link: "" },
+    // ];
 </script>
 
 <header
+    bind:clientHeight={y}
     class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
         (y > 0
             ? " py-4 bg-slate-950 border-violet-950"
@@ -23,7 +24,7 @@
     <h1 class="font-medium">
         <a href={base + "/"} class="hover:text-violet-500 fa-solid fa-house"> </a>
     </h1>
-    <div class="sm:flex items-center gap-4 hidden">
+    <!-- <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab}
             <a
                 href={tab.link}
@@ -32,5 +33,5 @@
                 <p>{tab.name}</p>
             </a>
         {/each}
-    </div>
+    </div> -->
 </header>
