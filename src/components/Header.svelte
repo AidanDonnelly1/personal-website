@@ -1,5 +1,5 @@
 <script>
-    let base = process.argv.includes('dev') ? '' : 'https://aidandonnelly1.github.io/personal-website'
+    let base = process.argv.includes('dev') ? "" : "https://aidandonnelly1.github.io/personal-website"
     export const prerender = true;
     /**
      * @type {number}
