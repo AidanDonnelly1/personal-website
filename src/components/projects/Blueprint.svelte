@@ -1,9 +1,9 @@
 <script>
     import StaticGallery from "./StaticGallery.svelte";
     let blueprint = [
-        "images/pets/sylvia.jpg",
-        "images/pets/sylvia.jpg",
-        "images/pets/sylvia.jpg",
+        "",
+        "",
+        "",
         "",
         "",
         "",

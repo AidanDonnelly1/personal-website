@@ -3,8 +3,8 @@
 
     let daisy = [
         "images/pets/daisy.jpg",
-        "images/pets/daisy.jpg",
-        "images/pets/daisy.jpg",
+        "images/pets/daisy-looking.jpg",
+        "images/pets/daisy-jakob.jpg",
         "",
         "",
         "",
@@ -14,9 +14,9 @@
     ];
 
     let sylvia = [
-        "images/pets/sylvia.jpg",
-        "images/pets/sylvia.jpg",
-        "images/pets/sylvia.jpg",
+        "images/pets/sylvia-kitten.jpg",
+        "images/pets/sylvia-basket.jpg",
+        "images/pets/sylvia-window.jpg",
         "",
         "",
         "",
@@ -26,9 +26,9 @@
     ];
 
     let bear = [
-        "images/pets/bear.jpg",
-        "images/pets/bear.jpg",
-        "images/pets/bear.jpg",
+        "images/pets/bear-not-walking.jpg",
+        "images/pets/bear-standing.jpg",
+        "images/pets/bear-laying.jpg",
         "",
         "",
         "",
@@ -39,7 +39,6 @@
 </script>
 
 <section
-        id="introPage"
         class="grid grid-cols-1 lg:grid-cols-1 gap-10 py-8 sm:py-14"
     >
         <div
@@ -68,7 +67,7 @@
 
 <div class="py-8"></div>
 
-<PetGallery image_src = {daisy}/>
+<div id="daisy"><PetGallery image_src = {daisy} /></div>
 
 <div class="py-8"></div>
 
@@ -84,7 +83,7 @@
 
 <div class="py-8"></div>
 
-<PetGallery image_src={sylvia}/>
+<div id="sylvia"><PetGallery image_src = {sylvia} /></div>
 
 <div class="py-8"></div>
 
@@ -100,4 +99,4 @@
 
 <div class="py-8"></div>
 
-<PetGallery image_src={bear}/>
+<div id="bear"><PetGallery image_src = {bear} /></div>

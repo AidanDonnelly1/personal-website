@@ -19,11 +19,11 @@
     ];
 
     let image_link = [
-        base + "/pets", // 0
+        base + "/pets#bear", // 0
         base + "/projects", // 1
         base + "/projects#cu-robotics", // 2
-        base + "/work  ", // 3
-        base + "/pets", // 4
+        base + "/work", // 3
+        base + "/pets#sylvia", // 4
         base + "/projects#blueprint", // 5
         base + "",
         base + "",
