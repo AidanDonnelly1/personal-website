@@ -19,15 +19,15 @@
     ];
 
     let image_link = [
-        "/pets", // 0
-        "/projects", // 1
-        "/projects/#cu-robotics", // 2
-        "/work  ", // 3
-        "/pets", // 4
-        "/projects/#blueprint",// 5
-        "",
-        "",
-        "",
+        base + "/pets", // 0
+        base + "/projects", // 1
+        base + "/projects/#cu-robotics", // 2
+        base + "/work  ", // 3
+        base + "/pets", // 4
+        base + "/projects/#blueprint",// 5
+        base + "",
+        base + "",
+        base + "",
     ];
     let steps = [
         {
