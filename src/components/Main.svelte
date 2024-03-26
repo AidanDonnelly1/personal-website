@@ -1,7 +1,8 @@
 <script>
+
     export const prerender = true;
     import Step from "./Step.svelte";
-
+    
     let steps = [
         {
             name: "CU Robotics",

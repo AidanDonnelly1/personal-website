@@ -1,4 +1,5 @@
 <script>
+    let base = process.argv.includes('dev') ? '' : process.env.BASE_PATH
     export const prerender = true;
     /**
      * @type {number}
@@ -6,9 +7,9 @@
      export let y;
 
     export let tabs = [
-        { name: "About Me", link: "https://aidandonnelly1.github.io/personal-website/about" },
-        { name: "Work Experience", link: "https://aidandonnelly1.github.io/personal-website/work" },
-        { name: "Projects", link: "https://aidandonnelly1.github.io/personal-website/projects" },
+        { name: "About Me", link: base + "/about" },
+        { name: "Work Experience", link: base + "/work" },
+        { name: "Projects", link: base + "/projects" },
         // { name: "Contact", link: "" },
     ];
 </script>
@@ -21,25 +22,16 @@
 >
     <h1 class="font-medium">
         <!-- <i class="hover:text-violet-500 fa-solid fa-house"></i> -->
-        <a href="https://aidandonnelly1.github.io/personal-website/" class="hover:text-violet-500 fa-solid fa-house"> </a>
+        <a href={base + "/"} class="hover:text-violet-500 fa-solid fa-house"> </a>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
-        {#each tabs as tab, index}
+        {#each tabs as tab}
             <a
                 href={tab.link}
                 class="duration-200 hover:text-violet-500"
-                target={index === 2 ? "_blank" : ""}
             >
                 <p>{tab.name}</p>
             </a>
         {/each}
-        <!-- <button
-            class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
-        >
-            <div
-                class="absolute top-0 right-full w-full h-full bg-violet-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
-            />
-            <h4 class="relative z-9">Get in touch</h4>
-        </button> -->
     </div>
 </header>
