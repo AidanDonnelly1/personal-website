@@ -6,9 +6,9 @@
      export let y;
 
     export let tabs = [
-        { name: "About Me", link: "#about" },
-        { name: "Work Experience", link: "#work" },
-        { name: "Projects", link: "#projects" },
+        { name: "About Me", link: "https://aidandonnelly1.github.io/personal-website/about" },
+        { name: "Work Experience", link: "https://aidandonnelly1.github.io/personal-website/work" },
+        { name: "Projects", link: "https://aidandonnelly1.github.io/personal-website/projects" },
         // { name: "Contact", link: "" },
     ];
 </script>
@@ -20,18 +20,18 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <i class="hover:text-violet-500 fa-solid fa-house"></i>
-        <!-- <a href="/" class="hover:text-violet-500 fa-solid fa-house"> </a> -->
+        <!-- <i class="hover:text-violet-500 fa-solid fa-house"></i> -->
+        <a href="https://aidandonnelly1.github.io/personal-website/" class="hover:text-violet-500 fa-solid fa-house"> </a>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
-            <!-- <a
+            <a
                 href={tab.link}
                 class="duration-200 hover:text-violet-500"
                 target={index === 2 ? "_blank" : ""}
-            > -->
+            >
                 <p>{tab.name}</p>
-            <!-- </a> -->
+            </a>
         {/each}
         <!-- <button
             class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
