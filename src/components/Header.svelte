@@ -21,8 +21,6 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <!-- <i class="hover:text-violet-500 fa-solid fa-house"></i> -->
-        {base} asdas
         <a href={base + "/"} class="hover:text-violet-500 fa-solid fa-house"> </a>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
