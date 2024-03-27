@@ -1,5 +1,5 @@
 <script>
-    import StaticGallery from "./StaticGallery.svelte";
+    import StaticGallery from "../Generic/Gallery/StaticGallery.svelte";
     let blueprint = [
         "",
         "",

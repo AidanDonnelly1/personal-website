@@ -2,9 +2,7 @@
     let base = process.argv.includes("dev")
         ? ""
         : "https://aidandonnelly1.github.io/personal-website";
-    export const prerender = true;
-    import Step from "./Step.svelte";
-    import Gallery from "./Gallery.svelte";
+    import LinkedGallery from "./Generic/Gallery/LinkedGallery.svelte";
 
     let image_src = [
         "images/pets/bear.jpg", // 0
@@ -29,26 +27,7 @@
         base + "",
         base + "",
     ];
-    let steps = [
-        {
-            name: "CU Robotics",
-            icon: "fa-solid fa-robot",
-            description:
-                "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
-        },
-        {
-            name: "Blueprint Boulder",
-            icon: "fa-solid fa-hand-holding-heart",
-            description:
-                "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
-        },
-        {
-            name: "Work Experience",
-            icon: "fa-solid fa-user",
-            description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
-        },
-    ];
+    
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -89,24 +68,7 @@
         </div>
     </section>
 
-    <!-- <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">       
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
-                <p>
-                   safas asfasf asf as fsa fas fa sfs a s fas fasfafsf a sfaff as sa sf a sfaff as ss fas fasfafsf a sfaff as sa sf a sfaff as s 
-                </p>
-            </Step>
-            <Step step={steps[1]}>
-                <p>
-                    as fas as fsa fas fas fasfafsf a sfaff as sa sf a sfaff as s fas fasfafsf a sfaff as sa sf a sfaff as ssa sf a sfaff as sa 
-            </Step>
-            <Step step={steps[2]}>
-                <p>
-                    fasasf sa fa sfas fasf a sfaff as sa fa sfas fasf a sfaff as sf a sfaff as sa sf a sfaff as sa 
-                </p>
-            </Step>
-        </div>
-    </section> -->
+   
 
     <div
         class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
@@ -120,5 +82,6 @@
 
     <div class="py-8"></div>
 
-    <Gallery {image_src} {image_link} />
+    <LinkedGallery {image_src} {image_link} />
+
 </main>
