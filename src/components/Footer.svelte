@@ -6,18 +6,6 @@
     id="footer"
     class="py-10 sm:py-16 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
-    <form action="https://formspree.io/f/mayraqzw" method="POST">
-        <label>
-            Your email:
-            <input type="email" name="email" />
-        </label>
-        <label>
-            Your message:
-            <textarea name="message"></textarea>
-        </label>
-        <!-- your other form fields go here -->
-        <button type="submit">Send</button>
-    </form>
     <div class="flex flex-col gap-4">
         <p>
             <b class="pr-2">Email</b>
