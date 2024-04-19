@@ -24,15 +24,15 @@
     ];
 
     let image_link = [
-        base + "/pets#bear", // 0
-        base + "/projects", // 1
-        base + "/projects#cu-robotics", // 2
-        base + "/work", // 3
-        base + "/pets#sylvia", // 4
-        base + "/projects#blueprint", // 5
-        base + "",
-        base + "",
-        base + "",
+        base + "/personal-website/pets#bear", // 0
+        base + "/personal-website/projects", // 1
+        base + "/personal-website/projects#cu-robotics", // 2
+        base + "/personal-website/work", // 3
+        base + "/personal-website/pets#sylvia", // 4
+        base + "/personal-website/projects#blueprint", // 5
+        base + "/personal-website",
+        base + "/personal-website",
+        base + "/personal-website",
     ];
 </script>
 
