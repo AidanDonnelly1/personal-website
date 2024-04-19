@@ -22,7 +22,7 @@
     class="sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid py-6 bg-transparent border-transparent"
 >
     <h1 class="font-medium">
-        <a href={base + "/"} class="hover:text-violet-500 fa-solid fa-house"> </a>
+        <a href={base + "/personal-website"} class="hover:text-violet-500 fa-solid fa-house"> </a>
     </h1>
     <!-- <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab}
