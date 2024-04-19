@@ -1,9 +1,16 @@
 <script>
-    let base = process.argv.includes("dev")
-        ? ""
-        : "https://aidandonnelly1.github.io/personal-website";
+    let base = "";
+    try {
+        base = process.argv.includes("dev")
+            ? ""
+            : "https://aidandonnelly1.github.io/personal-website";
+    } catch {}
+
     import LinkedGallery from "./Generic/Gallery/LinkedGallery.svelte";
 
+    import Modal from "./Modal.svelte";
+
+    let showModal = false;
     let image_src = [
         "images/pets/bear.jpg", // 0
         "images/drive-team.jpg", // 1
@@ -27,7 +34,6 @@
         base + "",
         base + "",
     ];
-    
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -54,21 +60,19 @@
                 Click on any pictures in the Gallery to see what I've done
             </p>
             <p class="text-center">
-                <a href={base + "/#footer"}>
-                    <button
-                        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-                    >
-                        <div
-                            class="absolute top-0 right-full w-full h-full bg-violet-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
-                        />
-                        <h4 class="relative z-9">Get in touch &rarr;</h4>
-                    </button>
-                </a>
+                <button
+                    on:click={() => (showModal = true)}
+                    class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+                >
+                    <div
+                        class="absolute top-0 right-full w-full h-full bg-violet-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
+                    />
+                    <h4 class="relative z-9">Get in touch &rarr;</h4>
+                </button>
             </p>
+            <Modal bind:showModal/>
         </div>
     </section>
-
-   
 
     <div
         class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
@@ -83,5 +87,4 @@
     <div class="py-8"></div>
 
     <LinkedGallery {image_src} {image_link} />
-
 </main>

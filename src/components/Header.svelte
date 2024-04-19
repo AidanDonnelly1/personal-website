@@ -1,6 +1,10 @@
 <script>
-    let base = process.argv.includes('dev') ? "" : "https://aidandonnelly1.github.io/personal-website"
-    export const prerender = true;
+    let base = ""
+    try
+    {
+        base = process.argv.includes('dev') ? "" : "https://aidandonnelly1.github.io/personal-website"
+    }
+    catch{}
     /**
      * @type {number}
      */
@@ -15,11 +19,7 @@
 </script>
 
 <header
-    bind:clientHeight={y}
-    class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
-        (y > 0
-            ? " py-4 bg-slate-950 border-violet-950"
-            : " py-6 bg-transparent border-transparent")}
+    class="sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid py-6 bg-transparent border-transparent"
 >
     <h1 class="font-medium">
         <a href={base + "/"} class="hover:text-violet-500 fa-solid fa-house"> </a>
