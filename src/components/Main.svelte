@@ -42,8 +42,7 @@
                 I am an aspiring Software Engineer studying for a BS in
                 <span class="text-green-700"> Computer Science </span>
                 at the University of Colorado, Boulder and minoring in
-                <span class="text-green-700"> Applied Mathmatics.</span>
-                Click on any pictures in the Gallery to see what I've done
+                <span class="text-green-700"> Applied Mathmatics</span>.
             </p>
             <p class="text-center">
                 <button
