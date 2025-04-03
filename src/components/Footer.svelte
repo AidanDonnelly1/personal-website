@@ -6,7 +6,6 @@
 >
     <div class="flex flex-col gap-4">
         <p>
-            <!-- <b class="pr-2 ">Email</b> <a href=" " target="_blank" class="text-emerald-700 pr-4">Aidan.Donnelly@colorado.edu</a> -->
             <b class="pr-2 pl-4">GitHub</b>
             <a href="https://github.com/AidanDonnelly1" target="_blank" class="text-emerald-700 pr-4"
                 >AidanDonnelly1<sup class=""
@@ -25,6 +24,11 @@
                             class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
                         /></span
                     ></sup
+                ></a
+            >
+            <b class="pr-2 pl-4">Email</b>
+            <a target="_blank" class="text-emerald-700 pr-4"
+                >Aidan.Donnelly@colorado.edu<sup class=""
                 ></a
             >
         </p>
