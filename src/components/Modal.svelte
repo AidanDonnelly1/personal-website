@@ -29,7 +29,7 @@
                     <div class="mb-5">
                         <label
                             for="name"
-                            class="mb-3 block text-violet-800 font-bold poppins border-none"
+                            class="mb-3 block text-emerald-800 font-bold poppins border-none"
                         >
                             Full Name
                         </label>
@@ -38,13 +38,13 @@
                             name="name"
                             id="name"
                             placeholder="Full Name"
-                            class="w-full rounded-md border border-stone-300 bg-stone-100 py-3 px-6 text-base font-medium text-violet-900 outline-none focus:border-violet-900 focus:shadow-md"
+                            class="w-full rounded-md border border-stone-300 bg-stone-100 py-3 px-6 text-base font-medium text-emerald-900 outline-none focus:border-emerald-900 focus:shadow-md"
                         />
                     </div>
                     <div class="mb-5">
                         <label
                             for="email"
-                            class="mb-3 block text-violet-800 font-bold poppins border-none"
+                            class="mb-3 block text-emerald-800 font-bold poppins border-none"
                         >
                             Email Address
                         </label>
@@ -53,13 +53,13 @@
                             name="email"
                             id="email"
                             placeholder="example@domain.com"
-                            class="w-full rounded-md border border-stone-300 bg-stone-100 py-3 px-6 text-base font-medium text-violet-900 outline-none focus:border-violet-900 focus:shadow-md"
+                            class="w-full rounded-md border border-stone-300 bg-stone-100 py-3 px-6 text-base font-medium text-emerald-900 outline-none focus:border-emerald-900 focus:shadow-md"
                         />
                     </div>
                     <div class="mb-5">
                         <label
                             for="message"
-                            class="mb-3 block text-violet-800 font-bold poppins border-none"
+                            class="mb-3 block text-emerald-800 font-bold poppins border-none"
                         >
                             Message
                         </label>
@@ -68,12 +68,12 @@
                             name="message"
                             id="message"
                             placeholder="Type your message"
-                            class="w-full resize-none rounded-md border border-stone-300 bg-stone-100 py-3 px-6 text-base font-medium text-violet-900 outline-none focus:border-violet-900 focus:shadow-md"
+                            class="w-full resize-none rounded-md border border-stone-300 bg-stone-100 py-3 px-6 text-base font-medium text-emerald-900 outline-none focus:border-emerald-900 focus:shadow-md"
                         ></textarea>
                     </div>
                     <div class="grid grid-cols-1 content-center">
                         <button
-                            class="rounded-full bg-violet-900 py-3 px-8 poppins font-semibold text-white outline-none focus:shadow-violet-900 hover:shadow-lg hover:bg-violet-800"
+                            class="rounded-full bg-emerald-900 py-3 px-8 poppins font-semibold text-white outline-none focus:shadow-emerald-900 hover:shadow-lg hover:bg-emerald-800"
                         >
                             Submit
                         </button>

@@ -49,7 +49,7 @@
 <div class="w-full flex flex-row justify-center poppins text-4xl">
     <h2>
     I am a
-        <span class="typing-text text-violet-500" use:typeRoles>
+        <span class="typing-text text-green-700" use:typeRoles>
             {roles[0]} <!-- Fallback content -->
         </span>
     </h2>

@@ -21,15 +21,15 @@
             <h2
                 class="text-center font-semibold text-4xl sm:text-5xl md:text-6xl"
             >
-                <span class="text-violet-500"> CU Robotics </span> 
+                <span class="text-green-700"> CU Robotics </span> 
                 <div class="py-4"></div>
                 
                 <p class="poppins text-center text-base sm:text-lg md:text-xl">
-                    Currently I am the <span class="text-violet-500"> AutoAim Lead </span>
+                    Currently I am the <span class="text-green-700"> AutoAim Lead </span>
                     on CU Boulder's RoboMasters team. I have been developing an armor plate detector using
-                    <span class="text-violet-500"> OpenCV </span> to find the pixel that is in the center
+                    <span class="text-green-700"> OpenCV </span> to find the pixel that is in the center
                     of any armor plates detected in a given frame and then using the depth frame from the
-                    <span class="text-violet-500"> Intel RealSense </span> I am able to turn that into a 
+                    <span class="text-green-700"> Intel RealSense </span> I am able to turn that into a 
                     positon in 3D space relative to our robot.
                 </p>
                 <div class="py-6"></div>

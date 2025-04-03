@@ -1,4 +1,4 @@
-<div class="card card-border bg-slate-950 p-4 w-full rounded-lg">
+<div class="card card-border bg-stone-900 p-4 w-full rounded-lg">
   <div class="card-body">
     <div class="card-body p-6 pt-2">
       <div class="flex justify-between items-start">

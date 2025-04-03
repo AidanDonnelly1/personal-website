@@ -28,7 +28,7 @@
     >
         <button
             on:click={goTop}
-            class="ml-auto rounded-full bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center"
+            class="ml-auto rounded-full bg-stone-900 text-emerald-400 px-3 sm:px-4 hover:bg-stone-800 cursor-pointer aspect-square grid place-items-center"
         >
             <i class="fa-solid fa-arrow-up" />
         </button>

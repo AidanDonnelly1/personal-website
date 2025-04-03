@@ -47,7 +47,7 @@
             <h2
                 class="text-center font-semibold text-4xl sm:text-5xl md:text-6xl"
             >
-                Meet My <span class="poppins text-violet-500"
+                Meet My <span class="poppins text-green-700"
                     >Pets</span
                 >
                 <br />
@@ -56,7 +56,7 @@
     </section>
 
 <div
-        class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+        class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-emerald-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-emerald-700 py-4"
     >
         <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
             Daisy
@@ -70,7 +70,7 @@
 <div class="py-8"></div>
 
 <div
-        class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+        class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-emerald-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-emerald-700 py-4"
     >
         <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
             Sylvia
@@ -84,7 +84,7 @@
 <div class="py-8"></div>
 
 <div
-        class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+        class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-emerald-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-emerald-700 py-4"
     >
         <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
             Bear

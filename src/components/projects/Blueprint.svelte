@@ -23,11 +23,11 @@
             <h2
                 class="text-center font-semibold text-4xl sm:text-5xl md:text-6xl"
             >
-                <span class="text-violet-500"> Blueprint Boulder </span> 
+                <span class="text-green-700"> Blueprint Boulder </span> 
                 <div class="py-4"></div>
                 <p class="poppins text-center text-base sm:text-lg md:text-xl">
                     Blueprint Boulder is a non-profit and club at CU Boulder that creates
-                    websites for other non-profits. Currently I am a <span class="text-violet-500"> Project Lead </span>
+                    websites for other non-profits. Currently I am a <span class="text-green-700"> Project Lead </span>
                     for the 24-25 year and will update this with more information as it comes
                 </p>
 
