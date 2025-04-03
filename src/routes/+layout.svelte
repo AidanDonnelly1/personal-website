@@ -33,7 +33,7 @@
             <i class="fa-solid fa-arrow-up" />
         </button>
     </div>
-    <Header {y}/>
+    <!-- <Header {y}/> -->
     <slot />
     <Footer />
 </div>

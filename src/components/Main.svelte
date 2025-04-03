@@ -1,45 +1,28 @@
 <script>
     let base = "";
     try {
+        // @ts-ignore
         base = process.argv.includes("dev")
             ? ""
             : "https://aidandonnelly1.github.io/personal-website";
     } catch {}
 
-    import LinkedGallery from "./Generic/Gallery/LinkedGallery.svelte";
-
+   
+    import GraduationTimer from "./EducationSection/GraduationTimer.svelte";
+    import Education from "./EducationSection/Education.svelte";
+    import ClassProjects from "./EducationSection/ClassProjects.svelte";
     import Modal from "./Modal.svelte";
+    import Experience from "./Experience.svelte";
+    import IAmTyping from "./IAmTyping.svelte";
+
 
     let showModal = false;
-    let image_src = [
-        "images/pets/bear.jpg", // 0
-        "images/drive-team.jpg", // 1
-        "images/cu-robotics/new-robot.jpg", // 2
-        "images/friends.jpg", // 3
-        "images/pets/sylvia.jpg", // 4
-        "images/blueprint/intro-meeting.png", // 5
-        "",
-        "",
-        "",
-    ];
-
-    let image_link = [
-        base + "/personal-website/pets#bear", // 0
-        base + "/personal-website/projects", // 1
-        base + "/personal-website/projects#cu-robotics", // 2
-        base + "/personal-website/work", // 3
-        base + "/personal-website/pets#sylvia", // 4
-        base + "/personal-website/projects#blueprint", // 5
-        base + "/personal-website",
-        base + "/personal-website",
-        base + "/personal-website",
-    ];
 </script>
 
-<main class="flex flex-col flex-1 p-4">
+<main class="flex flex-col flex-1">
     <section
-        id="introPage"
-        class="grid grid-cols-1 lg:grid-cols-1 gap-10 py-8 sm:py-14"
+        id="aboutMe"
+        class="grid grid-cols-1 lg:grid-cols-1 gap-4 pt-8"
     >
         <div
             class="flex flex-col lg:justify-center text-center lg:text-left gap-8 md:gap-10 lg:gap-12"
@@ -52,6 +35,9 @@
                 >
                 <br />
             </h2>
+
+            <IAmTyping/>
+
             <p class="poppins text-center text-base sm:text-lg md:text-xl">
                 I am an aspiring Software Engineer studying for a BS in
                 <span class="text-violet-500"> Computer Science </span>
@@ -74,17 +60,57 @@
         </div>
     </section>
 
-    <div
-        class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+    <section
+        id="education"
+        class="grid grid-cols-1 lg:grid-cols-1 gap-10 py-8 sm:py-14 mt-0"
     >
+        <div
+            class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+        >
+            <!-- <h6 class="text-large sm:text-xl md:text-2xl">take</h6> -->
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                Education
+                <!-- <span class="poppins text-violet-400">Gallery</span> -->
+            </h3>
+        </div>
+        <div class="w-full justify-content-center">
+            <Education/>
+            <GraduationTimer/>
+            <ClassProjects/>
+        </div>
+        
+    </section>
+    <section
+        id="experience"
+        class="grid grid-cols-1 lg:grid-cols-1 gap-4"
+    >
+        <div
+            class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+        >
+            <!-- <h6 class="text-large sm:text-xl md:text-2xl">take</h6> -->
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                Experience
+                <!-- <span class="poppins text-violet-400">Gallery</span> -->
+            </h3>
+        </div>
+        <Experience/>
+    </section>
+    <section
+        id="hobbies"
+        class="grid grid-cols-1 lg:grid-cols-1 gap-10 py-8 sm:py-14 mt-0"
+    >
+        <div
+            class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+        >
         <!-- <h6 class="text-large sm:text-xl md:text-2xl">take</h6> -->
         <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-            Gallery
+            Hobbies
             <!-- <span class="poppins text-violet-400">Gallery</span> -->
         </h3>
     </div>
 
     <div class="py-8"></div>
 
-    <LinkedGallery {image_src} {image_link} />
+    </section>
 </main>
+
