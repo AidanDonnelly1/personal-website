@@ -8,7 +8,7 @@
         { id: 'aboutMe', title: 'About Me' },
         { id: 'education', title: 'Education' },
         { id: 'experience', title: 'Experience' },
-        { id: 'hobbies', title: 'Hobbies' }
+        // { id: 'hobbies', title: 'Hobbies' }
     ];
     
     let activeSection = 'about';

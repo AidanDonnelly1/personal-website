@@ -95,22 +95,6 @@
         </div>
         <Experience/>
     </section>
-    <section
-        id="hobbies"
-        class="grid grid-cols-1 lg:grid-cols-1 gap-10 py-8 sm:py-14 mt-0"
-    >
-        <div
-            class="flex flex-col gap-4 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
-        >
-        <!-- <h6 class="text-large sm:text-xl md:text-2xl">take</h6> -->
-        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-            Hobbies
-            <!-- <span class="poppins text-violet-400">Gallery</span> -->
-        </h3>
-    </div>
-
-    <div class="py-8"></div>
-
-    </section>
+ 
 </main>
 
