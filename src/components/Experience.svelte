@@ -1,7 +1,7 @@
 <script>
     const experiences = [
       {
-        company: "ReaderVirt",
+        company: "Rudder Virt",
         position: "Software Engineering Internship",
         period: "December 2023 - Present",
         location: "Remote",
