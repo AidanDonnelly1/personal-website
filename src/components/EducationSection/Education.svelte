@@ -74,7 +74,7 @@
           </div>
           <div class="flex-1 min-w-0">
             <div class="font-medium truncate">Software Development Methods</div>
-            <div class="text-xs opacity-60">CS 3308</div>
+            <div class="text-xs opacity-60">CSCI 3308</div>
           </div>
         </li>
         
@@ -85,7 +85,7 @@
           </div>
           <div class="flex-1 min-w-0">
             <div class="font-medium truncate">Algorithms</div>
-            <div class="text-xs opacity-60">CS 3104</div>
+            <div class="text-xs opacity-60">CSCI 3104</div>
           </div>
         </li>
         

@@ -46,7 +46,7 @@
         tick();
     }
 </script>
-<div class="w-full flex flex-row justify-center poppins text-4xl">
+<div class="w-full flex flex-row justify-center poppins text-xl lg:text-4xl md:text-2xl sm:text-xl">
     <h2>
     I am a
         <span class="typing-text text-green-700" use:typeRoles>

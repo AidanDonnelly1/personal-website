@@ -28,7 +28,7 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-8 md:gap-10 lg:gap-12"
         >
             <h2
-                class="text-center font-semibold text-4xl sm:text-5xl md:text-6xl"
+                class="text-center font-semibold text-2xl lg:text-6xl md:text-3xl sm:text-2xl"
             >
                 Hi! I'm <span class="poppins text-green-700"
                     >Aidan Donnelly</span
@@ -42,7 +42,7 @@
                 I am an aspiring Software Engineer studying for a BS in
                 <span class="text-green-700"> Computer Science </span>
                 at the University of Colorado, Boulder and minoring in
-                <span class="text-green-700"> Applied Mathmatics</span>.
+                <span class="text-green-700"> Applied Mathematics</span>.
             </p>
             <p class="text-center">
                 <button
