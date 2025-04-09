@@ -17,6 +17,9 @@
     let isDeleting = false;
     let currentText = '';
     
+    /**
+   * @param {HTMLSpanElement} node
+   */
     function typeRoles(node) {
         function tick() {
             if (isDeleting) {
