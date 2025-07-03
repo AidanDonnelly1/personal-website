@@ -2,6 +2,7 @@
     let base = ""
     try
     {
+        // @ts-ignore
         base = process.argv.includes('dev') ? "" : "https://aidandonnelly1.github.io/personal-website"
     }
     catch{}
